@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import uap.models.Sphere;
 import uap.models.Torus;
+import uap.bases.Shape;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,7 +20,7 @@ public class Main {
         System.out.print("Isikan radius   : ");
         double minorRadius = input.nextDouble();
         System.out.println("=============================================");
-        Torus torus = new Torus(majorRadius, minorRadius);
+        Shape torus = new Torus(majorRadius, minorRadius);
         torus.printInfo();
         System.out.println("Massa dalam kg  : " + torus.gramToKilogram());
         System.out.println("Biaya kirim     : Rp." + torus.calculateCost());
@@ -27,12 +28,11 @@ public class Main {
         System.out.print("Isikan radius   :");
         double radius = input.nextDouble();
         System.out.println("=============================================");
-        Sphere sphere = new Sphere(radius);
+        Shape sphere = new Sphere(radius);
         sphere.printInfo();
         System.out.println("Massa dalam kg  : " + sphere.gramToKilogram());
         System.out.println("Biaya kirim     : Rp." + sphere.calculateCost());
         System.out.println("=============================================");
-
         input.close();
     }
 }
