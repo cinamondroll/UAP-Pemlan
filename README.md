@@ -8,9 +8,9 @@ Fitur Utama
 
 |--> Perhitungan Geometris: Menghitung volume dan luas permukaan untuk dua bentuk cetakan donat:
 
-|--> Torus (donat dengan lubang)
+  |--> Torus (donat dengan lubang)
 
-|--> Sphere (donat tanpa lubang/bulat)
+  |--> Sphere (donat tanpa lubang/bulat)
 
 |--> Perhitungan Massa: Menghitung massa cetakan berdasarkan material stainless steel 304 dengan ketebalan 0.5 cm dan densitas 8 g/cm³.
 
